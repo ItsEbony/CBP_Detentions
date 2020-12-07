@@ -10,7 +10,7 @@ Considering the detention of minors by CBP has been a major topic in public disc
 
 ### About the Data Source
 
-This project uses [data] (https://github.com/themarshallproject/cbp-migrantchildren-detention-data) collected by The Marshall Project from CBP via a Freedom of Information Act request. The CSV contains more than 580,000 rows of data covering each time the agency detained migrant children since January 20, 2017.  
+This project uses [data](https://github.com/themarshallproject/cbp-migrantchildren-detention-data) collected by The Marshall Project from CBP via a Freedom of Information Act request. The CSV contains more than 580,000 rows of data covering each time the agency detained migrant children since January 20, 2017.  
 
 ### Questions the Data Can Answer
 
@@ -20,4 +20,4 @@ Possible questions we could answer from this data include:
 - Does country of origin play a role in likelihood of detention or time spent detained? 
 
 
-#### Note: Due to the file size, please use the provided link to access the CBP data. 
+*Note: Due to the file size, please use the provided link to access the CBP data.*
