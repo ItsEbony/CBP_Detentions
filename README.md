@@ -2,7 +2,7 @@
 
 ### Topic 
 
-This project aims to identify which factor(s), if any, influence the amount of time minors are detained by U.S. Customs and Border Protection (CBP) in order to build a model that can predict how much time one is likely to spend in CBP custody.  
+This project aims to identify which factor(s), if any, influence the amount of time minors are detained by U.S. Customs and Border Protection (CBP) in order to build a model that can predict how much time one is likely to spend in CBP custody.  The project will use a Naive Basel model. 
 
 ### Reason for Selecting Topic 
 
