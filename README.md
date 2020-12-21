@@ -105,8 +105,6 @@ An initial exploration of the data showed interesting trends in the areas of age
 
 2. Guatemalan nationals have the highest representation among detainees, making up 195.6K detentions, followed by Hondurans who account for 162.2K detentions. 
 
-![](Resources/images/logreg.png)
-
 3. However, Hondurans are detained for more time on average at 75 hours, with Nicaragua and El Salvador coming in second with 74 hours on average in detention. 
 
 ![](Resources/images/detcon.png)
