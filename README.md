@@ -92,7 +92,7 @@ For this model, I used the days_in_custody values and identified the average amo
 
 In the end, the model was able to determine with a ***55% accuracy score*** whether an individual would spend more time on average in custody based on age group, gender, date in, date out and country of origin. 
 
-![](Resources/images/logreg.png)
+![](Resources/images/logreg1.png)
 
 #### Decision Tree & Random Forest
 
