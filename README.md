@@ -86,14 +86,25 @@ I used a multilinear regression model looking at age group, gender and country t
 
 #### Logistic Regression
 
-I then looked into to doing a logistic regression model to look at a binary option and determine if any of the features could help predict whether someone would spend more time than average in detention or not. 
+I then looked into doing a logistic regression model to look at a binary option and determine if any of the features could help predict whether someone would spend more time than average in detention or not. 
 
-For this model, I used the values after going through a log transformation so that they were more normalized and identified the average amount of hours spent in custody from that. I then created a new column with values of 0 (indicating the individual did not spend more time than average in detention) and 1 (individuals who did spend more time on average in detention). 
+For this model, I used the days_in_custody values and identified the average amount of hours spent in custody from that. I then created a new column with values of 0 (indicating the individual did not spend more time than average in detention) and 1 (individuals who did spend more time on average in detention). 
 
-In the end, the model was able to determine with a ***63% accuracy score*** whether an individual would spend more time on average in custody based on age group, gender, date in, date out and country of origin. 
+In the end, the model was able to determine with a ***55% accuracy score*** whether an individual would spend more time on average in custody based on age group, gender, date in, date out and country of origin. 
 
 ![](Resources/images/logreg.png)
 
+#### Decision Tree & Random Forest
+
+Given that the regression models were not detecting any correlations between input variables (country of origin, age, gender, date in, or date out) and whether detainees would spend more time than average in custody despite an exploratory analysis finding bias in the data, I built decision tree and random forest models to consider the input variables when combined with each other. Both models came out with with an accuracy score of 70% -- a marked improvement from the regression models. 
+
+##### Decision Tree
+
+![](Resources/images/desctree.png)
+
+##### Random Forest
+
+![](Resources/images/ranfo.png)
 
 ### Interesting Findings
 
